@@ -1,0 +1,119 @@
+			body{
+				margin-left:30px;
+				background: linear-gradient(to right, #000000 1%, #91950f 88%);
+				font-family: 'Orbitron', sans-serif;
+				font-size: 32.5px;
+			}
+		
+			nav{
+				margin-bottom:40px;
+			}
+			
+			.link{
+				display:inline;
+				margin-right:20px;
+				color: #C0C0C0;
+				text-decoration:none;
+			}
+			
+			.link:hover, .foot:hover, .about_link:hover, .conLst:hover{
+				color: #ffffff;
+			}
+			
+			#h_link{
+				color:#ffffff;
+				text-decoration: underline;
+			}
+			
+			#h_link:hover{
+				color:#C0C0C0;
+			}
+			/* END TOP OF BODY CSS */
+			
+			
+			/* Content: Home	*/
+			.content, .about_link{
+				margin-top: 40px;
+				margin-bottom: 50px;
+				color: #C0C0C0;
+			}
+			
+			.content_head{
+				color:#A0A0A0;
+			}
+			
+			/* Content: About */
+			#about_content{
+				margin-top: 180px;
+				margin-bottom: 177px;
+			}
+			
+			#lnk_edu{letter-spacing: 50px;}
+			#lnk_xp{letter-spacing: 41px;}
+			#lnk_crt{letter-spacing: 33px;}
+			#lnk_olnk{letter-spacing: 32px;}
+			
+			/*Content: Portfolio*/
+			#port_head{letter-spacing:50px;}
+			
+			.port_project{
+				background-color:#ffffff;
+				margin-right:10px;
+				margin-bottom:20px;
+				margin-left:20px;
+				border-color:#C0C0C0;
+				border-style:solid;
+				font-size:15pt;
+				float:left;
+				padding:4px;
+			}
+			
+			#portfolio_main{
+				float:left;
+				margin-bottom:320px;
+				margin-left:150px;
+				margin-right:150px;
+			}
+			
+			#p_project_title{
+				letter-spacing:10px;
+			}
+			
+			.project_head{
+				color:#000000;
+				text-decoration:underline;	
+			}
+			
+			.project_head:hover{color:#A0A0A0;}
+			
+			#port_foot{float:left;}
+			
+			/*Content: Contact*/
+			#contact_main{
+				margin-left:600px;
+				color: #ffffff;
+				margin-top:150px;
+				margin-bottom:290px;
+			}
+			
+			.conLst{
+				display:inline;
+				text-decoration:underline;
+				color: #C0C0C0;
+				font-size:45pt;
+				margin-right:40px;
+			}
+			
+			#con_email{
+				margin-left:115px;
+			}
+			
+			/* END OF ALL PAGE CONTENT	*/
+			
+			
+			footer{
+				margin-bottom:40px;
+				color: #C0C0C0;
+				font-size: 18px;
+				
+			}
