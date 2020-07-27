@@ -16,7 +16,7 @@
 				text-decoration:none;
 			}
 			
-			.link:hover, .foot:hover, .about_link:hover, .conLst:hover{
+			.link:hover, .foot:hover, .conLst:hover{
 				color: #ffffff;
 			}
 			
@@ -44,8 +44,9 @@
 			
 			/* Content: About */
 			#about_content{
-				margin-top: 180px;
+				margin-top: 25px;
 				margin-bottom: 177px;
+				color: #ffffff;
 			}
 			
 			#lnk_edu{letter-spacing: 50px;}
