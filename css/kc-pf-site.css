@@ -118,3 +118,76 @@
 				font-size: 18px;
 				
 			}
+			
+			/* MEDIA QUERIES */
+			@media (max-width:400px){
+				body{
+					text-align:center;
+					vertical-align:middle;
+				}
+				
+				.link{
+					float:left;
+					margin-right:90px;
+					margin-left:90px;
+					margin-bottom:10px;	
+				}
+				
+				/* About page */
+				
+				#lnk_bottom, #lnk_bottom_ft{
+					margin-bottom:40px;
+					
+				}
+				
+				#lnk_bottom_ft{
+					margin-left:20px;
+				}
+				
+				
+				#lnk_crt, #lnk_edu, #lnk_olnk, #lnk_xp{
+					letter-spacing:8px;
+					
+				}
+					
+				#about_content{
+					margin-right:10px;
+				}
+				
+				/* Portfolio page */
+				
+				.port_project, #portfolio_main{
+					margin-left:22px;
+				}
+				
+				#portfolio_main{
+					margin-bottom:20px;
+				}
+				
+				/* Contact page */
+				#contact_main{
+					margin-left:0;
+					margin-right:10px;
+					margin-top: 10px;
+					margin-bottom: 10px;
+					text-align:center;
+					vertical-align:middle;
+					
+				}
+				
+				.conLst{
+					margin-right:0;
+					text-align:center;
+					vertical-align:middle;
+					margin-right:25px;
+					
+				}
+			
+				#con_email{
+					margin-left:0;
+					text-align:center;
+					vertical-align:middle;
+				}
+				
+			}
+			
