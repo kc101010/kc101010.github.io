@@ -91,23 +91,32 @@
 			
 			/*Content: Contact*/
 			#contact_main{
-				margin-left:600px;
+				
 				color: #ffffff;
 				margin-top:150px;
-				margin-bottom:290px;
+				margin-bottom:350px;
+			}
+
+			.conFeed{
+				margin-left: 380px;
 			}
 			
+			#con_h{
+				margin-left:620px;
+			}
+
 			.conLst{
 				display:inline;
 				text-decoration:underline;
 				color: #C0C0C0;
 				font-size:45pt;
-				margin-right:40px;
+				margin-right:100px;
+				
 			}
 			
-			#con_email{
+			/*#con_email{
 				margin-left:115px;
-			}
+			}*/
 			
 			/* END OF ALL PAGE CONTENT	*/
 			
@@ -119,6 +128,8 @@
 				
 			}
 			
+
+
 			/* MEDIA QUERIES */
 			@media (max-width:400px){
 				body{
