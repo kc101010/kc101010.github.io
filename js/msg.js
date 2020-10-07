@@ -1,3 +1,6 @@
+//SCRIPT TO ALERT USER REGARDING DISPLAY
+//WRITTEN BY KYLE CHRISTIE (7/10/20)
+
 function checkAlert(){
     var alerted = localStorage.getItem('alerted') || '';
     if(alerted != 'yes'){
