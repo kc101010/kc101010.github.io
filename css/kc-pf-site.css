@@ -195,4 +195,31 @@
 			
 				
 			}
+
+			@media (min-width:600px){
+				#contact_main{
+					text-align:center;
+					vertical-align:middle;
+					margin-bottom:100px;
+				}
+
+				#con_nav{
+					margin-bottom: 100px;
+				}
+				
+				#con_h{
+					display: inline-block;
+					margin:100px;
+					margin-top:20px;
+				}
+
+				.conFeed{
+					
+					margin-left:150px;
+					margin-right:100px;
+					
+				}
+			
+
+			}
 			
