@@ -1,0 +1,225 @@
+			body{
+				margin-left:30px;
+				background: linear-gradient(to right, #000000 1%, #91950f 88%);
+				font-family: 'Orbitron', sans-serif;
+				font-size: 32.5px;
+			}
+		
+			nav{
+				margin-bottom:40px;
+			}
+			
+			.link{
+				display:inline;
+				margin-right:20px;
+				color: #C0C0C0;
+				text-decoration:none;
+			}
+			
+			.link:hover, .conLst:hover{
+				color: #ffffff;
+			}
+			
+			#h_link{
+				color:#ffffff;
+				text-decoration: underline;
+			}
+			
+			#h_link:hover{
+				color:#C0C0C0;
+			}
+			/* END TOP OF BODY CSS */
+			
+			
+			/* Content: Home	*/
+			.content, .about_link{
+				margin-top: 40px;
+				margin-bottom: 50px;
+				color: #C0C0C0;
+			}
+			
+			.content_head{
+				color:#A0A0A0;
+			}
+			
+			/* Content: About */
+			#about_content{
+				margin-top: 25px;
+				margin-bottom: 70px;
+				color: #ffffff;
+			}
+			
+			#lnk_edu{letter-spacing: 50px;}
+			#lnk_xp{letter-spacing: 41px;}
+			#lnk_crt{letter-spacing: 33px;}
+			#lnk_olnk{letter-spacing: 32px;}
+			
+			/*Content: Portfolio*/
+			#port_head{letter-spacing:50px;}
+			
+			.port_project{
+				background-color:#ffffff;
+				margin-right:10px;
+				margin-bottom:20px;
+				margin-left:20px;
+				border-color:#C0C0C0;
+				border-style:solid;
+				font-size:15pt;
+				float:left;
+				padding:4px;
+			}
+			
+			#portfolio_main{
+				float:left;
+				margin-bottom:320px;
+				margin-left:150px;
+				margin-right:150px;
+			}
+			
+			#p_project_title{
+				letter-spacing:10px;
+			}
+			
+			.project_head{
+				color:#000000;
+				text-decoration:underline;	
+			}
+			
+			.project_head:hover{color:#A0A0A0;}
+			
+			#port_foot{float:left;}
+			
+			/*Content: Contact*/
+			#contact_main{
+				
+				color: #ffffff;
+				margin-top:150px;
+				margin-bottom:350px;
+			}
+
+			.conFeed{
+				margin-left: 380px;
+			}
+			
+			#con_h{
+				margin-left:620px;
+			}
+
+			.conLst{
+				display:inline;
+				text-decoration:underline;
+				color: #C0C0C0;
+				font-size:45pt;
+				margin-right:100px;
+				
+			}
+			
+			
+			/* END OF ALL PAGE CONTENT	*/
+			
+			
+			footer{
+				margin-bottom:40px;
+				color: #C0C0C0;
+				font-size: 18px;
+				
+			}
+			
+
+
+			/* MEDIA QUERIES */
+			@media (max-width:400px){
+				body{
+					text-align:center;
+					vertical-align:middle;
+				}
+				
+				.link{
+					float:left;
+					width: 100%
+				}
+				
+				/* About page */
+				
+				#lnk_bottom, #lnk_bottom_ft{
+					margin-bottom:40px;
+					
+				}
+				
+				#lnk_bottom_ft{
+					margin-left:20px;
+				}
+				
+				
+				#lnk_crt, #lnk_edu, #lnk_olnk, #lnk_xp{
+					letter-spacing:8px;
+					
+				}
+					
+				#about_content{
+					margin-right:10px;
+				}
+				
+				/* Portfolio page */
+				
+				.port_project, #portfolio_main{
+					margin-left:22px;
+				}
+				
+				#portfolio_main{
+					margin-bottom:20px;
+				}
+				
+				/* Contact page */
+				#contact_main{
+					margin-top:50px;
+					margin-bottom: 50px;
+					
+					
+				}
+
+				#con_nav{
+					margin-bottom: 150px;
+				}
+				
+				#con_h{
+					display: inline-block;
+					margin:50px;
+				}
+
+				.conFeed{
+					display: block;
+					margin:auto;
+					
+				}
+			
+				
+			}
+
+			@media (max-width:600px){
+				#contact_main{
+					text-align:center;
+					vertical-align:middle;
+					margin-bottom:100px;
+				}
+
+				#con_nav{
+					margin-bottom: 100px;
+				}
+				
+				#con_h{
+					display: inline-block;
+					margin:100px;
+					margin-top:20px;
+				}
+
+				.conFeed{
+					
+					margin-left:150px;
+					margin-right:100px;
+					
+				}
+			
+
+			}
+			
