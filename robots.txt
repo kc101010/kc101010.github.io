@@ -3,3 +3,4 @@ Disallow: /assets/
 Disallow: /sitemap.xml/
 Disallow: /css/
 Disallow: /js/
+Allow: /html/
