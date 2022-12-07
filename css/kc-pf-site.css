@@ -1,7 +1,9 @@
+			
+			
 			body{
 				margin-left:30px;
 				background: linear-gradient(to right, #000000 1%, #91950f 88%);
-				font-family: 'Orbitron', sans-serif;
+				font-family: 'Bahnschrift', sans-serif;
 				font-size: 32.5px;
 			}
 		
@@ -23,6 +25,7 @@
 			#h_link{
 				color:#ffffff;
 				text-decoration: underline;
+				font-family: 'Orbitron', sans-serif;
 			}
 			
 			#h_link:hover{
@@ -59,14 +62,15 @@
 			
 			.port_project{
 				background-color:#ffffff;
-				margin-right:10px;
-				margin-bottom:20px;
-				margin-left:20px;
+				margin-right:50px;
+				margin-bottom:50px;
+				margin-left:50px;
 				border-color:#C0C0C0;
 				border-style:solid;
 				font-size:15pt;
 				float:left;
-				padding:4px;
+				padding:10px;
+				
 			}
 			
 			#portfolio_main{
@@ -77,12 +81,13 @@
 			}
 			
 			#p_project_title{
-				letter-spacing:10px;
+				letter-spacing:14px;
 			}
 			
 			.project_head{
 				color:#000000;
-				text-decoration:underline;	
+				text-decoration:underline;
+				
 			}
 			
 			.project_head:hover{color:#A0A0A0;}
@@ -125,8 +130,6 @@
 				
 			}
 			
-
-
 			/* MEDIA QUERIES */
 			@media (max-width:400px){
 				body{
