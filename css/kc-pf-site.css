@@ -111,11 +111,12 @@
 			}
 
 			.conLst{
-				display:inline;
+				display:block;
 				text-decoration:underline;
 				color: #C0C0C0;
 				font-size:45pt;
 				margin-right:100px;
+				margin-bottom: 100px;
 				
 			}
 			
